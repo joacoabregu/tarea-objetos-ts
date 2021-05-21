@@ -1,4 +1,4 @@
-class Autor {
+export default class Autor {
     private nombre: string = "";
     private mail: string = "";
     private bio: string = "";
@@ -26,5 +26,7 @@ class Autor {
     }
 
 }
+
+
 
 
