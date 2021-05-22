@@ -2,7 +2,7 @@ export default class Notas {
     private autor: object = {}; 
     private nota: string = "";
     private fecha: string = "";
-    private tag: string[] = [''];
+    private tags: string[] = [''];
 
     public setAutor(a: object){
         this.autor = a;
@@ -13,8 +13,8 @@ export default class Notas {
     public setFecha(f: string){
         this.fecha = f;
     }
-    public setTag(t: string[]){
-        this.tag = t;
+    public setTags(t: string[]){
+        this.tags = t;
     }
 
     public getAutor() : object {
@@ -26,8 +26,8 @@ export default class Notas {
     public getFecha() : string {
         return this.fecha;
     }
-    public getTag() : string[] {
-        return this.tag;
+    public getTags() : string[] {
+        return this.tags;
     }
 
 }
